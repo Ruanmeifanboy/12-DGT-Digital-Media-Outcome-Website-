@@ -1,6 +1,7 @@
 body {
     background-color:rgb(53,57,53);
-    text-align: center;
+    /* text-align: center; */
+    margin: auto;
    
 }
 p {
@@ -26,7 +27,7 @@ h1 {
     padding :0px;
 }
 
-/*Navbar Ui*/
+/*navbar Ui*/
 .navbar ul{
   list-style-type: none;
   background-color:black;
@@ -51,5 +52,65 @@ h1 {
 .navbar li {
     float: center;
     text-align: center;
-}    
-    
+}   
+
+/* Dropdown box to skip to parts of the page */
+.dropdown {
+    display:inline-block;
+    background-color: black;
+    justify-content: left;
+    position: relative;
+}
+.dropdown button {
+    background-color:black ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+}
+.dropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: auto;
+}
+.dropdown .content {
+    position:absolute;
+    background-color:darkviolet;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px maroon;
+    display: none;
+}
+.dropdown:hover .content {
+    display: block;
+}
+.dropdown:hover button{
+background-color:darkviolet;
+}
+.dropdown a:hover {
+    background-color: hsl(0,0%,85%);
+}
+
+/* ===== RESPONSIVE DESIGN =====
+@media (max-width: 768px) {
+
+    .body {
+        padding: 32px 20px;
+    }
+
+    .parallax {
+        padding: 110px 16px 70px;
+    }
+}
+
+@media (max-width: 704px) {
+    .nav-title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 607px) {
+    .nav-title {
+        display: none;
+    } */
