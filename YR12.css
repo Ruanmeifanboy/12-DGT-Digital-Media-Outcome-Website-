@@ -4,7 +4,7 @@ body {
     margin: auto;
    
 }
-p {
+.Hpp{
     color:rgb(255, 255, 255);
     text-align: center;
 }
@@ -15,6 +15,7 @@ h1 {
 
 .Footer {
     text-align: left;
+    color:white;
 }
 
 /*Main background image*/
@@ -28,6 +29,10 @@ h1 {
 }
 
 /*navbar Ui*/
+.NavBar {
+    position:sticky;
+    top :0;
+}
 .navbar ul{
   list-style-type: none;
   background-color:black;
@@ -91,6 +96,137 @@ background-color:darkviolet;
 .dropdown a:hover {
     background-color: hsl(0,0%,85%);
 }
+/* Header to skills */
+.H2S {
+    color:white;
+}
+/* Abilities page paragraph */
+.App {
+    color:white;
+}
+h3 {
+    color:white;
+}
+
+.Dodge{
+    text-align:right;
+}
+
+.Special{
+    text-align:right;
+}
+
+.H2T{
+ color:white;
+}
+.Tpp{
+ color:white;    
+}
+.synergies{
+    margin-left: 100px;
+}
+/* Teampage agents */
+.TPA {
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: auto;
+}
+.column2 {
+    float: left;
+    width: auto;
+}
+/* disc page pargraph */
+.Dpp{
+ color:white;
+
+}
+.H2D {
+    color:white;
+}
+/* Disc divs */
+   #Dd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown2 {
+    display:inline-block;
+    background-color: black;
+    justify-content: left;
+    position: relative;
+}
+.dropdown2 button {
+     background-color:rgb(53,57,53);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+}
+.dropdown2 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: auto;
+}
+.dropdown2 .content2 {
+    position:absolute;
+    background-color:darkviolet;
+    min-width: 1000px;
+    /* box-shadow: 2px 2px 5px maroon; */
+    display:none;
+    
+}
+.dropdown2:hover .content2 {
+    display: block;
+}
+.dropdown2:hover button{
+background-color:darkviolet;
+}
+.dropdown2 a:hover {
+    background-color: hsl(0,0%,85%);
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ===== RESPONSIVE DESIGN =====
 @media (max-width: 768px) {
