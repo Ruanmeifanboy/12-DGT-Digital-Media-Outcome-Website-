@@ -4,7 +4,8 @@ body {
     margin: auto;
    
 }
-.Hpp{
+/* Home page paragraph text */
+#Hpp{
     color:rgb(255, 255, 255);
     text-align: center;
 }
@@ -20,15 +21,16 @@ h1 {
 
 /*Main background image*/
 .MBGI{
-    background-image: url();
+    background-image: url(Images/Vivian\ Banner.gif);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    background size:cover;
-    padding :0px;
+    background-attachment:fixed;
+    background-size :cover;
+    padding :150px;
+
 }
 
-/*navbar Ui*/
+/*Navbar*/
 .NavBar {
     position:sticky;
     top :0;
@@ -55,7 +57,6 @@ h1 {
     background-color:darkviolet
 }
 .navbar li {
-    float: center;
     text-align: center;
 }   
 
@@ -64,7 +65,8 @@ h1 {
     display:inline-block;
     background-color: black;
     justify-content: left;
-    position: relative;
+    position: fixed;
+    margin-bottom: 20px;
 }
 .dropdown button {
     background-color:black ;
@@ -78,7 +80,7 @@ h1 {
     display: block;
     color: white;
     text-decoration: none;
-    padding: auto;
+    padding: 10px 10px;
 }
 .dropdown .content {
     position:absolute;
@@ -96,6 +98,18 @@ background-color:darkviolet;
 .dropdown a:hover {
     background-color: hsl(0,0%,85%);
 }
+.Hpi {
+    width: 900px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Header 1/one to skills */
+.H1TS {
+    color:white;
+    
+}
 /* Header to skills */
 .H2S {
     color:white;
@@ -107,146 +121,212 @@ background-color:darkviolet;
 h3 {
     color:white;
 }
-
-.Dodge{
+ /* Page format */
+.Basic{
     text-align:right;
 }
 
-.Special{
+.Assist{
     text-align:right;
 }
-
+.Chain {
+    text-align: right;
+}
+/* Header to teams */
 .H2T{
  color:white;
 }
+/* Team page paragraph */
 .Tpp{
  color:white;    
 }
 .synergies{
     margin-left: 100px;
 }
+/* Team page image */
+.Api {
+    height:auto;
+    max-width: 1000px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Abilites page skill image */
+.Apsi {
+    height: 350px;
+    width :600px;
+}
+/* Team page div */
+.TPD {
+    text-align: center;
+}
 /* Teampage agents */
-.TPA {
+.TPA::after {
     clear: both;
     display: table;
 }
+/* Agent columns */
 .column {
     float: left;
-    width: auto;
+    width: 16%;
 }
 .column2 {
     float: left;
-    width: auto;
+    width: 25%;
 }
 /* disc page pargraph */
 .Dpp{
  color:white;
 
 }
+/* Header to dics */
 .H2D {
     color:white;
 }
-/* Disc divs */
-   #Dd {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Disc div */
+#Dd {
+text-align: center;
 }
-
-.dropdown2 {
-    display:inline-block;
-    background-color: black;
-    justify-content: left;
-    position: relative;
-}
-.dropdown2 button {
-     background-color:rgb(53,57,53);
+/* Disc page list */
+.Dpl {
     color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
+    display: block;
+    list-style-position: inside;
+    text-align: center;
 
 }
-.dropdown2 a {
-    display: block;
+/* Disc page image */
+.Dpi {
+    height: 100px;
+    width: 100px;
+}
+/*Info page paragraph */
+.Ipp {
     color: white;
-    text-decoration: none;
-    padding: auto;
 }
-.dropdown2 .content2 {
-    position:absolute;
-    background-color:darkviolet;
-    min-width: 1000px;
-    /* box-shadow: 2px 2px 5px maroon; */
-    display:none;
-    
+/* Info page header */
+.Iph {
+    color: white;
 }
-.dropdown2:hover .content2 {
-    display: block;
+/* Info page image */
+.Ipi {
+    height: 320px;
+    width: 640px;
 }
-.dropdown2:hover button{
-background-color:darkviolet;
-}
-.dropdown2 a:hover {
-    background-color: hsl(0,0%,85%);
-}
-ul {
-    display: flex;
-    justify-content: center;
-}
+   /* For most mobile devices */
+@media (max-width: 600px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===== RESPONSIVE DESIGN =====
-@media (max-width: 768px) {
-
-    .body {
-        padding: 32px 20px;
+    /* --- Banner / Header --- */
+    .MBGI {
+        padding: 50px 20px;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
     }
 
-    .parallax {
-        padding: 110px 16px 70px;
+    .BGI h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    /* --- Navbar --- */
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* --- Dropdown --- */
+    .dropdown {
+        position: static;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown .content {
+        position: static;
+        box-shadow: none;
+    }
+
+    /* --- Images (all pages) --- */
+    .Hpi,
+    .Api,
+    .Apsi,
+    .Dpi,
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* --- Team Page Columns --- */
+    .column,
+    .column2 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    /* --- Text adjustments --- */
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    .Tpp,
+    .App,
+    .Dpp,
+    .Ipp {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    /* --- Disc Page List --- */
+    .Dpl {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    /* --- Main content wrappers --- */
+    #Dd,
+    .TPD {
+        text-align: center;
+        padding: 0 10px;
     }
 }
 
-@media (max-width: 704px) {
-    .nav-title {
-        font-size: 22px;
-    }
-}
 
-@media (max-width: 607px) {
-    .nav-title {
-        display: none;
-    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

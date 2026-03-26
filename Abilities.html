@@ -1,68 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Vivian</title>
-        <link rel="stylesheet" href="YR12.css">
-    </head>
-    <body>
-        <div class="MBGI">
-            <div class="BGI">
-                <h1> My dope website </h1>
-            </div>
-        </div>
-        <div class="NavBar">
-            <nav class=navbar>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Abilities.html">Abilities</a></li> 
-                    <li><a href="Teams.html">Best Teams</a></li> 
-                    <li><a href="Discs.html">Best Discs/Stats</a></li> 
-                    <li><a href="Info.html">Info for fun</a></li>
-                </ul>        
-            </nav>
-        </div>
-        <div class="dropdown">
-            <button>Page parts</button>
-            <div class="content">
-                <a href="">Dislike </a>
-            </div>
-        </div>
-    <img src="Images/">
-    <h2 class="H2S">Skills</h2>
+<head>
+    <meta charset="UTF-8">
+    <title>Vivian</title>
+    <link rel="stylesheet" href="YR12.css">
+    <link rel="icon" href="Images/Vivian-Icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <div class="Basic">
-    <h2 class="H2S">Majoir Traces</h2>
-     <p class="App">(A2 Major Trace)Inert Respiration<br>Increases Break Effect by 20% for all allies.<br>(A4 Major Trace)Days Wane, Thoughts Wax<br>Ruan Mei regenerates 5 Energy at the start of her turn.<br>(A6 Major Trace)Candle Lights on Still Waters<br>In battle, for every 10% of Ruan Mei's Break Effect that exceeds 120%, her Skill additionally increases allies' DMG by 6%, up to a maximum of 36%.</p> 
-    <h2 class="H2S">Minor Traces(Total)</h2>
-    <p class="App">DEF +22.5% Speed +5 Break Effect +37.3% </p>
+<body>
+
+    <!-- Header / Banner -->
+    <header class="MBGI">
+        <div class="BGI">
+            <h1>About Vivian</h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Abilities.html">Abilities</a></li>
+            <li><a href="Teams.html">Best Teams</a></li>
+            <li><a href="Discs.html">Best Discs/Stats</a></li>
+            <li><a href="Info.html">Info for fun</a></li>
+        </ul>
+    </nav>
+
+    <!-- Dropdown Section -->
+    <div class="dropdown">
+        <button>Descriptions</button>
+        <div class="content">
+            <a href="#CoreSkill">Core skills</a>
+            <a href="#Basic">Basic</a>
+            <a href="#Dodge">Dodge</a>
+            <a href="#Assist">Assist</a>
+            <a href="#Special">Special</a>
+            <a href="#Chain/Ult">Chain/Ult</a>
+            <a href="#Mind">Mindscapes</a>
+        </div>
     </div>
 
-    <div class="Dodge">
-    <img src="" alt="">
-    <h3>Threading Fragrance (Basic Skill) <br>Single Target</h3>
-    <p class="App">Recomended level 6 <br>Deals Ice <strong>DMG equal to 50% (100% if at Lvl 6)</strong> of Ruan Mei's ATK to a single target enemy.</p></div>
-    
-    <div class=Assist>
-    <img src="images/2.png" alt="">
-    <h3>String Sings Slow Swirls (Skill) <br>Support</h3>
-    <p class="App">Recomended level 10 <br>After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's turn.<br> When Ruan Mei has Overtone, all allies' <strong>DMG increases by 16%(32% at Lvl 10) and Weakness Break Efficiency increases by 50%</strong>.</p></div>
-    
-    <div class="Special">
-    <img src="images/3.png" alt="">
-    <h3>Petals to Stream, Repose in Dream (Ultimate) <br>Support | 130 energy cost</h3>
-    <p class="App">Recomended level 10 <br>Ruan Mei deploys a field that lasts for 2 turns.<br> The field's duration decreases by 1 at the start of her turn.While inside the field, <strong>all allies' All-Type RES PEN<br> increases by 15%(25% if Lvl 10)</strong> and their attacks apply Thanatoplum Rebloom to the enemies hit.<br>When these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered,<br> extending the duration of their Weakness Break, delaying their action by an amount equal to <strong>20% of Ruan Mei's Break Effect</strong><br> plus 10%, and dealing <strong>Break DMG equal to 30%(50% if Lvl 10) of Ruan Mei's Ice Break DMG.</strong><br><strong>Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break.</strong> </p></div>
-    
-    <div class="Chain">
-    <img src="images/4.png" alt="">
-    <h3>Somatotypical Helix (Talent) <br>Support</h3>
-    <p class="App">Recomended level 10 <br><strong>Increases SPD by 8%(10% if Lvl 10)</strong> for the team (excluding this character).<br> When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target <strong>Break DMG equal to 60%(120% if Lvl 10) of her Ice Break DMG.</strong></p></div>
-     
-    <div class="Mindscapes"> 
-    <h2 class="H2S">Mindscapes</h2>
-    <p class="App">Neuronic Embroidery(Eidolon 1)<br>While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF. </p>
-    <p class="App">Reedside Promenade(Eidolon 2)<br>With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break. </p>
-    <p class="App">Viridescent Pirouette(Eidolon 3)<br>Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15. </p>
-    <p class="App">Chatoyant Éclat(Eidolon 4)<br>When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s). </p>
-    <p class="App">Languid Barrette(Eidolon 5)<br>Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10. </p>
-    <p class="App">Sash Cascade(Eidolon 6)<br>Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%. </p>
-    </div>
+    <!-- Main Content -->
+    <main>
+
+        <h1 class="H1TS">Skills</h1>
+        <img class="Api" src="Images/1_Vivian.png" alt="Vivian portrait">
+
+        <!-- Core Skills -->
+        <section class="Core skills">
+            <p id="CoreSkill"></p>
+            <h2 class="H2S">Core skills</h2>
+
+            <p class="App">
+                When Basic Attack: Featherbloom hits a target that is suffering from an Ether, Electric, Fire, Physical, or Ice Anomaly,
+                it will trigger Abloom, dealing additional Attribute Anomaly DMG.<br>
+                The additional DMG is 3.07% / 1.6% / 4% / 0.37% / 0.54% per 10 points of Anomaly Proficiency of the original Anomaly DMG.<br>
+                When Basic Attack: Fluttering Frock - Suspension or Basic Attack: Featherbloom hits a target suffering any Attribute Anomaly,
+                it will inflict Vivian's Prophecy, causing the target to take Ether DMG equal to 55% of Vivian's ATK every 0.55s.<br>
+                This DMG can trigger additional DMG from Attribute Anomalies.<br>
+                Vivian's Prophecy ends when the target is no longer suffering an Attribute Anomaly.
+                When entering the battlefield, Vivian gains 2 Flight Feathers.
+            </p>
+
+            <h2 class="H2S">Additional Ability: Prophetic Tears</h2>
+            <p class="App">
+                When another character in your squad is an Anomaly character or shares the same attribute:<br>
+                Whenever another squad member applies Attribute Anomaly to an enemy,<br>
+                Vivian will consume 1 Guard Feather to launch Basic Attack:<br>
+                Featherbloom on the target. This can trigger once every 0.5s.<br>
+                Corruption DMG dealt by all squad members and the Corruption status'<br>
+                Disorder DMG increases by 12%.
+            </p>
+        </section>
+
+        <!-- Basic Skill -->
+        <section class="Basic">
+            <img class="Apsi" src="Images/BasicAttack1.gif" alt="Vivian doing her 4 combo">
+            <p id="Basic"></p>
+            <h3>Basic Attack:<br>Feathered Strike</h3>
+            <p class="App">
+            Press Basic Attack to activate: Unleashes up to 4 attacks in front, dealing Physical DMG and Ether DMG. After triggering the fourth attack, enter the Noblewoman state. With Flight Feathers available, holding Basic Attack during the fourth attack will activate the <em>Fluttering Frock state</em>.
+            </p>
+            <img class="Apsi" src="Images/BasicAttack2.gif" alt="Vivian dashing forward attack">
+            <p id="Basic"></p>
+            <h3>Basic Attack:<br>Noblweoman - Waltz</h3>
+            <p class="App">
+                Press Basic Attack while in the Noblewoman state to activate: Dash forward with an attack that deals Ether DMG and restores 1 Flight Feather upon hitting an enemy. Character is <strong>invulnerable while using this skill</strong>. If a Perfect Dodge is triggered during the dash, gain 1 additional Flight Feather. If Flight Feathers are available after the skill, enter the <em>Fluttering Frock state</em>, which can be canceled by holding Dodge when the skill is used.
+            </p>
+            <img class="Apsi" src="Images/BasicAttack3.gif" alt="Vivian attacking in fluttering frock state">
+            <p id="Basic"></p>
+            <h3>Basic Attack:<br>Fluttering Frock - Suspension</h3>
+            <p class="App">
+                Press Basic Attack while in the <em>Fluttering Frock state</em> to activate: Attack an area ahead, dealing Ether DMG. After activation, this skill consumes all Flight Feathers, and each one consurned grants 1 Guard Feather. Character is <strong>invulnerable while using this skill</strong>. When switching characters during the <em>Fluttering Frock state</em>, Vivian will automatically perform Basic Attack: <em>Fluttering Frock - Suspension.</em> While in the <em>Fluttering Frock state</em>, press Dodge to exit the state.
+            </p>
+        </section>
+
+        <!-- Dodge Skill -->
+        <section class="Dodge">
+            <img class="Apsi" src="Images/Dodge.gif" alt="Vivian dashing">
+            <p id="Dodge"></p>
+            <h3>Dodge:<br>Lightstream</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                Press Dodge to activate.A quick dash dodge. Character is <strong>invulnerable while using this skill.</strong>
+            </p>
+            <img class="Apsi" src="Images/DodgeAttack.gif" alt="Vivian dodging then attacking">
+            <h3>Dodge Counter:<br>Wingblade Reverb</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                Press Basic Attack during a Perfect Dodge to activate. Launches an attack on enemies ahead, dealing Physical DMG and Ether DMG.Character is invulnerable while using this skill.After activating the skill, enter the Noblewoman state. When there are Flight Feathers available, hold Basic Attack during skill activation to enter the Fluttering Frock state.
+            </p>
+        </section>
+
+        <!-- Assist Skill -->
+        <section class="Assist">
+            <img class="Apsi" src="Images/Quick assist.gif" alt="Vivian performing quick assist">
+            <p id="Assist"></p>
+            <h3>Quick Assist:<br>Frostwing Guard</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                When the <strong>active character is launched, press Assist to activate.</strong> Launches an attack on enenies ahead, dealing Physical DMG and Ether DMG.<br> Character is <strong>invulnerable while using this skill.</strong> After the skill activates, enter the Noblewoman state. With Flight Feathers available, hold Basic Attack during skill activation to enter the <em>Fluttering Frock state.</em></p>
+            <img class="Apsi" src="Images/Def assist.gif" alt="Vivian performing Defensive assist">
+            <h3>Defensive Assist:<br>Silver Umbrella Formation</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                When the character on field is <strong>about to be attacked, press Assist to activate.</strong> Parries the enemy's attack, <strong>dealing massive Daze. Character is invulnerable while using this skill.</strong></p>
+
+        <!-- Special Attack -->
+        <section class="Special">
+            <img class="Apsi" src="Images/Vivian special.gif" alt="Vivian using normal special">
+            <p id="Special"></p>
+            <h3>Special Attack:<br>Song of Silver Wings</h3>
+            <p class="App">
+                Press Special Attack to activate. Quickly attack forward, dealing Physical DMG and Ether DMG.<br>
+                Anti-Interrupt level is increased while using this skill.
+            </p>
+
+            <img class="Apsi" src="Images/Vivian Ex special.gif" alt="Vivian using Ex special">
+            <h3>EX Special Attack:<br>Violet Requiem</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                <strong>With enough Energy, press Special Attack to activate.</strong> Unleash a powerful forward attack that deals
+                <strong>massive Ether DMG and grants 3 Flight Feathers.<br></strong>
+                Character is <strong>invulnerable while using this skill.</strong>
+                Enter the <em>Fluttering Frock</em> state after using the skill.
+                Hold Dodge during the skill to enter the Noblewoman state.
+            </p>
+        </section>
+
+        <!-- Chain & Ultimate -->
+        <section class="Chain">
+            <img class="Apsi" src="Images/Chain attack.gif.gif" alt="Miyabi chaining into Vivian chain attack">
+            <p id="Chain/Ult"></p>
+            <h3>Chain Attack:<br>Chorus of Celestial Wings</h3>
+            <p class="App">
+                When a Chain Attack is triggered, select the character to activate: Launch a powerful attack on a large area of enemies ahead,<br>
+                dealing <strong>massive Ether DMG and gaining 2 Flight Feathers.</strong>
+                Character is <strong>invulnerable while using this skill.</strong><br>
+                After the skill activates, enter the <em>Fluttering Frock state</em>, which can be canceled by holding Dodge during the skill.
+            </p>
+
+            <img class="Apsi" src="Images/Vivian Ult.gif" alt="Vivian from zzz using ult">
+            <h3>Ultimate (3000 Decibel cost):<br>Soarding Bird's Song</h3>
+            <p class="App">
+                Recomended level 10 <br>
+                When <strong>Decibel Rating is at Maximum</strong>, press Ultimate to activate. Launch a powerful attack on a large area of enemies ahead,<br>
+                dealing <strong>massive Ether DMG and gaining 5 Flight Feathers.</strong><br>
+                Character is <strong>invulnerable while using this skill</strong>. After the skill is activated, enter the
+                <em>Fluttering Frock state</em>,<br>
+                which can be canceled by holding Dodge during the skill.
+            </p>
+        </section>
+
+        <!-- Mindscapes -->
+        <section class="Mindscapes">
+            <p id="Mind"></p>
+            <h2 class="H2S">Mindscapes</h2>
+
+            <p class="App">Walking Into the Orchard in Spring (Mindscape 1)<br>
+                When a total of 4 Guard Feathers are consumed, gain 1 Flight Feather. All Attribute Anomaly DMG and Disorder DMG received by targets under Vivian's Prophecy increases by 16%.
+            </p>
+
+            <p class="App">Stormy Night, Stormy Night (Mindscape 2)<br>
+                Vivian's Ether Anomaly Buildup Rate increases by 25%. The benefits of Abloom from Anomaly Proficiency are raised to 130% of the original value, and 15% of the target's All-Attribute RES is ignored.
+            </p>
+
+            <p class="App">Another and the Same (Mindscape 3)<br>
+                Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2
+            </p>
+
+            <p class="App">The Wind Between the Reeds (Mindscape 4)<br>
+                Basic Attack: Fluttering Frock - Suspension and Basic Attack: Featherbloom will always CRIT on hit, and they will also increase Vivian's ATK by 12% for 12s. Repeated triggers reset the duration. When entering the battlefield, Vivian immediately gains 5 Guard Feathers.
+            </p>
+
+            <p class="App">Sonnet (Mindscape 5)<br>
+                Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2
+            </p>
+
+            <p class="App">Vivian (Mindscape 6)<br>
+                Vivian's Ether DMG increases by 40%. When triggering a Perfect Dodge during Basic Attack: Noblewoman - Waltz's dash, or using EX Special Attack: Violet Requiem, gain 1 additional Flight Feather.
+                Launching Basic Attack: Fluttering Frock - Suspension consumes all Guard Feathers, the downward attack's area of effect increases, and upon hit, triggers a special instance of Abloom. Each additional Guard Feather consumed will increase the proportion of additional Anomaly DMG dealt by that instance of Abloom, consuming a maximum of 5 Guard Feathers to increase the DMG up to a maximum of 5 times the original.
+            </p>
+
+            <img src="Images/Vivian mindscapes.png" alt="Vivian from zzz with mindscapes">
+        </section>
+
+    </main>
+    <footer class="Footer">
+        All images owned by Hoyoverse.<br>
+        Most information owned/inspired by Prydwen.gg/star-rail and Zzz Wiki
+    </footer>
+
+</body>
+</html>

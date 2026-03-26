@@ -1,51 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Vivian</title>
-        <link rel="stylesheet" href="YR12.css">
-    </head>
-    <body>
-        <div class="MBGI">
-            <div class="BGI">
-                <h1> My dope website </h1>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Vivian</title>
+    <link rel="stylesheet" href="YR12.css">
+    <link rel="icon" href="Images/Vivian-Icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!-- Header / Banner -->
+    <header class="MBGI">
+        <div class="BGI">
+            <h1>About Vivian</h1>
         </div>
-        <div class="NavBar">
-            <nav class=navbar>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="Abilities.html">Abilities</a></li> 
-                    <li><a href="Teams.html">Best Teams</a></li> 
-                    <li><a href="Discs.html">Best Discs/Stats</a></li> 
-                    <li><a href="Info.html">Info for fun</a></li>
-                </ul>        
-            </nav>
-        </div>
-        <div class="dropdown">
-            <button>Page parts</button>
-            <div class="content">
-                <a href="">Dislike </a>
-            </div>
-        </div>
-<div id="Dd">
-<h2 class="H2D"> Wengines</h2>
-<p class="Dpp">Vivian only has 2 viable Wengines</p>
-<img src="Images/" alt="">
-<div class="dropdown2">
-        <button> <h2 class="H2D">Flight of Fancy</h2></button>
-        <div class="content2">
-            <p class="Dpp">Increases Anomaly Buildup Rate by 40/46/52/58/64%. <br>
-            When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s, stacking up to 6 times.<br>
-            This effect can trigger once every 0.5s, and repeated triggers reset the duration.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Abilities.html">Abilities</a></li>
+            <li><a href="Teams.html">Best Teams</a></li>
+            <li><a href="Discs.html">Best Discs/Stats</a></li>
+            <li><a href="Info.html">Info for fun</a></li>
+        </ul>
+    </nav>
+
+    <!-- Dropdown -->
+    <div class="dropdown">
+        <button>Descriptions</button>
+        <div class="content">
+            <a href="#Wengines">Wengine</a>
+            <a href="#Discs">Discs</a>
         </div>
     </div>
-<p class="Dpp">Vivian's signature W-Engine and easily her best option, as it gives her 90 Anomaly Proficiency from base stats <br>
-     and an extra 120 stackable Anomaly Proficiency at full stacks while giving a passive 40% Anomaly Buildup Rate.<br>
-     This boosts her Anomaly potential by huge amounts, making it the best by raw stats alone.</p>
-<img src="Images/" alt="">
-<h2 class="H2D">Weeping Gemini</h2>
-<p class="Dpp">Weeping Gemini is F2P accessible and the next best option for her after her signature making it her only other recommendation.<br>
-     It grants her ATK% and a tonne of AP when at maximum stacks which should be often. when full team damage is considered <br>
-     (not just Vivian's own damage) it performs even closer to her signature than represented further cementing it's spot as a potent F2P alternative.</p>
-</div>
 
+    <!-- Main Content -->
+    <main id="Dd">
+
+        <h2 class="H2D">Wengines</h2>
+        <p class="Dpp">Vivian only has 2 viable Wengines</p>
+         <p id="Wengines"></p>
+        <!-- Flight of Fancy -->
+        <section>
+            <img class="Dpi" src="Images/Flight of fancy.png" alt="Vivian's signature W-Engine">
+
+            <h2 class="H2D">Flight of Fancy</h2>
+
+            <p class="Dpp">
+                Increases Anomaly Buildup Rate by 40/46/52/58/64%. <br>
+                When the equipper deals Ether DMG, their Anomaly Proficiency increases by 20/23/26/29/32 for 5s,
+                stacking up to 6 times.<br>
+                This effect can trigger once every 0.5s, and repeated triggers reset the duration.
+            </p>
+
+            <p class="Dpp">
+                Vivian's signature W-Engine and easily her best option, as it gives her 90 Anomaly Proficiency from base stats <br>
+                and an extra 120 stackable Anomaly Proficiency at full stacks while giving a passive 40% Anomaly Buildup Rate.<br>
+                This boosts her Anomaly potential by huge amounts, making it the best by raw stats alone.
+            </p>
+        </section>
+
+        <!-- Weeping Gemini -->
+        <section>
+            <img class="Dpi" src="Images/Weeping Gemini.png" alt="Vivian's second BIS W-Engine">
+
+            <h2 class="H2D">Weeping Gemini</h2>
+
+            <p class="Dpp">
+                Whenever a squad member inflicts an Attribute Anomaly on an enemy,<br>
+                the equipper gains a buff that increases Anomaly Proficiency by 30/34/38/42/46, stacking up to 4 times. <br>
+                This effect expires when the target recovers from Stun or is defeated.<br>
+                The duration of each stack is calculated separately.
+            </p>
+
+            <p class="Dpp">
+                Weeping Gemini is F2P accessible and the next best option for her after her signature, making it her only other recommendation.<br>
+                It grants her ATK% and a tonne of AP when at maximum stacks which should be often. When full team damage is considered <br>
+                (not just Vivian's own damage) it performs even closer to her signature than represented, further cementing its spot as a potent F2P alternative.
+            </p>
+        </section>
+
+        <!-- Disk Drives -->
+        <section>
+            <h2 class="H2D">Best Disk Drives Sets</h2>
+            <p class="Dpp">Phaethon's Melody is a must</p>
+            <p id="Discs"></p>
+            <p class="Dpp">
+                Phaethon's Melody (4pc) <br>
+                (2pc) Anomaly Mastery +8%.<br>
+                (4pc) When any squad member uses an EX Special Attack, the equipper's Anomaly Proficiency increases by 45 for 8s.
+                If the character using the EX Special Attack is not the equipper, the equipper's Ether DMG is increased by 25%.
+            </p>
+
+            <p class="Dpp">
+                Best Disc Drive set for Anomaly-focused Ether Agents, as it gives a stackable 45 Anomaly Proficiency bonus for 8s when any character in the team uses EX Specials,
+                boosting Ether DMG for the equipper if the effect is activated by other party members, all the while boosting Anomaly Mastery with the 2-piece effect. <br>
+                Best combined with your choice of 2-PC Set:
+            </p>
+
+            <ul class="Dpl">
+                <li>Chaos Jazz, Freedom Blues (Recommended)</li>
+                <li>Chaotic Metal</li>
+                <li>Astral Voice</li>
+                <li>Hormone Punk</li>
+                <li>Puffer Electro</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer class="Footer">
+        All images owned by Hoyoverse.<br>
+        Most information owned/inspired by Prydwen.gg/star-rail and Zzz Wiki
+    </footer>
+</body>
+</html>
